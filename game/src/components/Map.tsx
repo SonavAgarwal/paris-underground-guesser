@@ -108,6 +108,7 @@ const Map: React.FC<MapProps> = ({
         setGuessedLocation(null);
         setDistance(null);
         setConfirmed(false);
+        setMetaphoricalMode(false);
         setShowCorrectLocation(false);
 
         // Recalculate image metrics for the new round if needed

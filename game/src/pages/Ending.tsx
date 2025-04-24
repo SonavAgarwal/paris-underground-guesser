@@ -12,7 +12,6 @@ const Ending = () => {
                 You scored {score.toPrecision(4)} points!
             </h1>
             <p className="w-full max-w-[30rem] text-white">
-                {" "}
                 Thanks for playing! I hope you learned about how many locations
                 relating to the underground are metaphors about freedom or
                 progess.
@@ -26,6 +25,9 @@ const Ending = () => {
             >
                 Play again?
             </button>
+            <p className="mt-4 w-full max-w-[30rem] text-center text-white">
+                Most images sourced from Google images or taken by me.
+            </p>
         </div>
     );
 };

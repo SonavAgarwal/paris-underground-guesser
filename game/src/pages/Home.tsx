@@ -17,8 +17,8 @@ const Home = () => {
                 physical map depicts the layers of the Earth, and the
                 metaphorical map depicts a scale where things can be metaphors
                 for freedom or a lack thereof, or progress or a lack thereof, or
-                both! You will need to reference both maps to pinpoint where to
-                place your guess.
+                both. You will need to reference both maps to pinpoint where to
+                place your guess!
                 <br />
                 <br /> This game aims to demonstrate that many locations and
                 things related to the Parisian underground are physical
@@ -33,6 +33,7 @@ const Home = () => {
             >
                 Start!
             </button>
+            <p className="mt-4 text-white">Made by Sonav Agarwal</p>
         </div>
     );
 };

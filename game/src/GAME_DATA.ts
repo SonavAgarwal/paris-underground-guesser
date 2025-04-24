@@ -13,7 +13,6 @@ export interface Scene {
 export const SCENES: Scene[] = [
     {
         name: "Les Misérables Sewers",
-        // location: { x: 100, y: 100 },
         location: { x: 25, y: 70 },
         explanation:
             'For Valjean, the sewers were metaphorical for his path to freedom, representing the arduous journey one takes to freedom. \n"Jean Valjean had escaped from the city". However, as Valjean navigates the sewers there\'s little indication as to whether he\'s making progress, other than the slope. Hugo writes that it is a "black labyrinth", metaphorically implying the sewers don\'t lend themselves to progress.',
@@ -23,7 +22,7 @@ export const SCENES: Scene[] = [
         name: "Limestone Quarries",
         location: { x: 66, y: 28 },
         explanation:
-            'The limestone mines afforded the city of Paris great progress in construction and architecture. However, for Charles-Axel Guillaumot, they represent an inescapable obsession turned into a tomb, where he continues to rest. For "ten years, ... Guillaumot [walked] the silent streets of his subterranean realm". The restrained freedom is true for the city of Paris, which for centuries continued to have to contend with the sinkholes caused by the legacy of its underground origins.',
+            'The limestone mines afforded the city of Paris great progress in construction and architecture. However, for Charles-Axel Guillaumot, they represent an inescapable obsession turned into a tomb, where he continues to rest. For "ten years, ... Guillaumot [walked] the silent streets of his subterranean realm" and now his bones rest there. The restrained freedom is also true for the city of Paris, which for centuries continued to have to contend with the sinkholes caused by the legacy of its underground origins.',
         image: "limestone.jpg",
     },
     {
@@ -44,7 +43,7 @@ export const SCENES: Scene[] = [
         name: "Arcades",
         location: { x: 22, y: 84 },
         explanation:
-            "The creation of the arcades symbolizes the culture of leisure and consumerism that developed throughout the 19th century in Paris. The protection and lighting in the arcades enabled all-day socialization and shopping, and their beauty and the congregations of people gave rise to the flâneur of Paris, free to roam as they pleased. The arcades are also a symbol of the some of the progress undone during Haussmannization.",
+            "The creation of the arcades symbolizes the culture of leisure and consumerism that developed throughout the 19th century in Paris. The protection and lighting in the arcades enabled all-day socialization and shopping, and their beauty and the congregations of people gave rise to the flâneur of Paris, free to roam as they pleased. As for progress, while the arcades were a new development, they marked a more lateral than forward growth, just one part of the growth of the bourgeoisie. The remaining arcades are now also a symbol of the some of the progress undone during Haussmannization.",
         image: "arcades.jpg",
     },
     {
@@ -58,7 +57,7 @@ export const SCENES: Scene[] = [
         name: "Metro",
         location: { x: 72, y: 54 },
         explanation:
-            'The metro was self-evidently a great work of progress for Parisian society, but it also speaks to the change to the modern pace of life, being intertwined with modern expressions like "Métro, boulot, dodo." \n\nIt was also very freeing for the people of Paris, able to take them from one side "to the other side of Paris in twenty-seven minutes" as people were no longer limited to above ground transportation. However, over time the metro became a metaphorical anchor for many, becoming nearly inescapable, with people falling into routines and tying memories to subway names. Marc Augé wrote that the Gare d\'Orleans-Austerlitz-Auteuil "would always play in [his] life."',
+            'The metro was self-evidently a great work of progress for Parisian society, but it also speaks to the change to the modern pace of life, being intertwined with modern expressions like "Métro, boulot, dodo." Robb also highlights the progress the metro brought by contrasting it with Proust, who never took the metro; the metro is an allegory for the change that people like Proust evaded. \n\nIt was also very freeing for the people of Paris, able to take them from one side "to the other side of Paris in twenty-seven minutes" as people were no longer limited to above-ground transportation. However, over time the metro became a metaphorical anchor for many, becoming nearly inescapable, with people falling into routines and tying memories to subway names. Marc Augé wrote that the Gare d\'Orleans-Austerlitz-Auteuil "would always play in [his] life."',
         image: "metro.jpg",
     },
     {
@@ -77,9 +76,16 @@ export const SCENES: Scene[] = [
     },
     {
         name: "Andre Breton",
-        location: { x: 10, y: 85 },
+        location: { x: 35, y: 85 },
         explanation:
-            "Andre Breton, a leader of the surrealist movement, was often found around the Passage de l’Opéra in a cafe. Their movement symbolized the desire for freedom of expression and the quest to unpack and reveal one's mind. While surrealists believed in progress, the movement actively made an enemy of rational thought, marking a step backwards from enlightenment ideas and positioning itself against one of the core drivers of societal progress.",
+            "Andre Breton, a leader of the surrealist movement, was often found around the Passage de l’Opéra in a cafe. Their movement symbolized the desire for freedom of expression and the quest to unpack and reveal one's mind. While surrealists claimed they believed in progress and aspired to create it, the movement actively made an enemy of rational thought, marking a step backwards from enlightenment ideas and positioning itself against one of the core drivers of societal progress. Ultimately, the movement only had a moderate impact on society and new forms of expression, like embracing cinema.",
         image: "breton.jpg",
+    },
+    {
+        name: "Les Halles",
+        location: { x: 90, y: 75 },
+        explanation:
+            'Les Halles is the perfect example of progress over time. Wakeman writes that the site is a "palimpest" given how it has continuously evolved throughout the centuries reflecting the needs and perspectives of Parisians, evolving from a market eventually to a mall. The location\'s continued resistance to government control also represents the freedom of the people of Paris. Throughout history the area was an area for illicit trade and sex work, according to Wakeman, and continues to be a meeting place for drug dealers at night, despite all the efforts throughout history to "clean out" the area.',
+        image: "halles.webp",
     },
 ];
