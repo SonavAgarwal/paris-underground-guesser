@@ -34,10 +34,11 @@ export const SCENES: Scene[] = [
         image: "chaumont.jpg",
     },
     {
-        name: "Fossil",
+        name: "Ichthyosaurus Fossil",
         location: { x: 72, y: 13 },
-        explanation: "FUCK",
-        image: "ichthyosaurus.jpg",
+        explanation:
+            'The discovery of fossils and field of paleontology represented by this fossil marked major leaps forward in the understanding of history. However, in Journey to the Center of the Earth, the ichthyosaurus was confined to the underground cavern. It\'s confinement mirrored the main character\'s own; he felt "uneasy" with no "land being in sight," suggesting that the fantastical underground, and more broadly exploration, while initially captivating are not paths to freedom.',
+        image: "ichthyosaurus.webp",
     },
     {
         name: "Arcades",
@@ -57,27 +58,28 @@ export const SCENES: Scene[] = [
         name: "Metro",
         location: { x: 72, y: 54 },
         explanation:
-            'The metro was self-evidently a great work of progress for Parisian society, but it also speaks to the change to the modern pace of life, being intertwined with expressions like "Métro, boulot, dodo." \n\nIt was also very freeing for the people of Paris, able to take them from one side "to the other side of Paris in twenty-seven minutes" as people were no longer limited to above ground transporatation. However, over time the metro became a metaphorical anchor for many, becoming nearly inescapable, with people falling into routines and tying memories to subway names. Marc Augé wrote that the Gare d\'Orleans-Austerlitz-Auteuil "would always play in [his] life."',
+            'The metro was self-evidently a great work of progress for Parisian society, but it also speaks to the change to the modern pace of life, being intertwined with modern expressions like "Métro, boulot, dodo." \n\nIt was also very freeing for the people of Paris, able to take them from one side "to the other side of Paris in twenty-seven minutes" as people were no longer limited to above ground transportation. However, over time the metro became a metaphorical anchor for many, becoming nearly inescapable, with people falling into routines and tying memories to subway names. Marc Augé wrote that the Gare d\'Orleans-Austerlitz-Auteuil "would always play in [his] life."',
         image: "metro.jpg",
     },
     {
         name: "Mines from Germinal",
-        location: { x: 72, y: 78 },
-        explanation: "",
-        image: "The mines in Germinal are a clear metaphor for the opression of the working class; Zola for example emphasizes the \"cages\" through which miners descended, both physical and a metaphor for the miner's capitivty and lack of freedom. The mines are also the antithesis of progress. They outlast efforts in real life and in Zola's novel for better compensation and working conditions by the miners, staunchly refusing to progress for the betterment of the people.",
+        location: { x: 16, y: 14 },
+        explanation:
+            "The mines in Germinal are a clear metaphor for the oppression of the working class; Zola for example emphasizes the \"cages\" through which miners descended, both physical and a metaphor for the miner's capitivty and lack of freedom. The mines are also the antithesis of progress. They outlast efforts in real life and in Zola's novel for better compensation and working conditions by the miners, staunchly refusing to progress for the betterment of the people.",
+        image: "mines.jpg",
     },
     {
         name: "Seeds from Germinal",
-        location: { x: 72, y: 78 },
+        location: { x: 80, y: 80 },
         explanation:
-            "A space of scientific wonder and boundless exploration, filled with potential rather than ruin.",
+            'The seeds mentioned at the end of Germinal are a metaphor for the slow but steady progress towards change and freedom that would "soon overturn the earth" and allow men to "spring...forth" from the underground that symbolized their captivity.',
         image: "seeds.jpg",
     },
     {
         name: "Andre Breton",
-        location: { x: 72, y: 78 },
+        location: { x: 10, y: 85 },
         explanation:
-            "A space of scientific wonder and boundless exploration, filled with potential rather than ruin.",
-        image: "scene-3.png",
+            "Andre Breton, a leader of the surrealist movement, was often found around the Passage de l’Opéra in a cafe. Their movement symbolized the desire for freedom of expression and the quest to unpack and reveal one's mind. While surrealists believed in progress, the movement actively made an enemy of rational thought, marking a step backwards from enlightenment ideas and positioning itself against one of the core drivers of societal progress.",
+        image: "breton.jpg",
     },
 ];

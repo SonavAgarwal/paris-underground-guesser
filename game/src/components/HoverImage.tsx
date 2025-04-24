@@ -48,7 +48,7 @@ function HoverImage({ src }: HoverImageProps) {
         setIsHovering(false);
     };
 
-    const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {
+    const handleMouseEnter = (_: React.MouseEvent<HTMLDivElement>) => {
         if (parentRef.current) {
             const rect = parentRef.current.getBoundingClientRect();
             if (!divDims) {

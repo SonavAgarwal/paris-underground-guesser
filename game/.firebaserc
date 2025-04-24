@@ -1,0 +1,15 @@
+{
+    "projects": {
+        "default": "sonaviscool"
+    },
+    "targets": {
+        "sonaviscool": {
+            "hosting": {
+                "parisundergroundgeoguesser": [
+                    "parisundergroundgeoguesser"
+                ]
+            }
+        }
+    },
+    "etags": {}
+}

@@ -1,9 +1,6 @@
-import React from "react";
 import { useNavigate } from "react-router";
 
-interface Props {}
-
-const Home = (props: Props) => {
+const Home = () => {
     const navigate = useNavigate();
     return (
         <div className="flex h-svh w-svw flex-col items-center justify-center gap-4 bg-zinc-800">

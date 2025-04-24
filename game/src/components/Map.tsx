@@ -308,7 +308,7 @@ const Map: React.FC<MapProps> = ({
     };
 
     const handleConfirmGuess = () => {
-        let score = 150 / Math.max(1, Math.abs(distance || 100));
+        let score = (5 * 150) / Math.max(1, Math.abs(distance || 100));
         score = Math.min(score, 100);
 
         if (guessedLocation && distance !== null) {
